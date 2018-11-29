@@ -26,6 +26,11 @@
     "redux": "^3.7.2",
     "reselect": "^3.0.1"
   },
+  "jest": {
+    "transformIgnorePatterns": [
+      "<rootDir>/node_modules/(?!special-module)"
+    ]
+  },
   "babel": {
     "presets": [
       [
